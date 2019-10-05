@@ -1,0 +1,13 @@
+*.dmg
+*.swo
+*.swp
+.*
+a.out
+*.old
+*.bak
+CMakeCache.txt
+CMakeFiles
+MacOSX10.13.sdk
+MacOSX.sdk
+Makefile
+cmake_install.cmake
