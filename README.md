@@ -6,11 +6,11 @@ eXperience library](https://github.com/MurphyMc/lux).
 You run SDLuxer, and it acts like a window manager using Lux.  Then you run
 SDL applications compiled with an SDLuxer-aware version of SDL, and they
 show up as windows inside SDLuxer.  For example, here are a couple of
-instances of the [Antsy](https://github.com/MurphyMc/antsy) terminal emulator
+instances of the [Lilt](https://github.com/MurphyMc/lilt) terminal emulator
 and the [LTris](http://lgames.sourceforge.net/LTris/) SDL game running in
 an instance of SDLuxer:
 
-![SDLuxer Screenshot with Antsy and LTris](screenshot.png)
+![SDLuxer Screenshot with Lilt and LTris](screenshot.png)
 
 
 ## Building and Running SDLuxer
@@ -63,9 +63,9 @@ SDL shared library as described above), running the application is almost
 as easy as just executing it -- all one needs to do first is to set the
 `SDLUXER_SERVER` environment variable to the path to the SDLuxer socket
 mentioned in the section of building and running SDLuxer.  For example, with
-`bash`, one might do something like the following to run Antsy:
+`bash`, one might do something like the following to run Lilt:
 ```
-SDLUXER_SERVER=../sdluxersock ./antsy
+SDLUXER_SERVER=../sdluxersock ./lilt
 ```
 
 
